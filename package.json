@@ -49,7 +49,7 @@
             "prettier --write",
             "./node_modules/.bin/eslint --fix"
         ],
-        "*.{css}": [
+        "*.css": [
             "stylelint --fix"
         ]
     }
