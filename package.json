@@ -2,6 +2,16 @@
     "name": "my-template",
     "version": "1.0.0",
     "license": "MIT",
+    "browserslist": {
+        "production": [
+            "> 0.5%, last 2 versions, not dead"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
     "scripts": {
         "start": "parcel src/index.html --open",
         "build": "parcel build src/index.html --dist-dir build",
